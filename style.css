@@ -1,0 +1,135 @@
+/* General Reset */
+body {
+    background-color: #691156;
+    color: black;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: #d88fd2;
+}
+
+.theme-toggle {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.theme-toggle:hover {
+    background-color: #0056b3;
+}
+
+* {
+    margin: 50;
+    padding: 50;
+    box-sizing: unset;
+}
+
+button {
+    background-color: #121213;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button.details-button {
+    background-color: #595f5b;
+}
+
+button.details-button:hover {
+    background-color: #68b878;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #691156;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #b97d7d;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background-color: hsl(313, 56%, 42%);
+    border: 3px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #7c8083;
+}
+
+.product-card p {
+    font-size: 0.9rem;
+    color: #140101;
+}
+
+.product-card .price {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #28a745;
+}
+
+/* Light Mode (default) */
+body {
+    background-color: #691156;
+    color: black;
+}
+
+body.light-mode {
+    background-color: white;
+    color: black;
+}
+
+body.light-mode .product-card {
+    background-color: hsl(313, 56%, 85%);
+}
+
+/* Adjust text and other elements for light mode */
+body.light-mode h1 {
+    color: #691156;
+}
